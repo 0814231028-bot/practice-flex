@@ -20,6 +20,8 @@ body {
     /* TODO: Add align-items: center to center items vertically */
     padding: 1rem 2rem;
     background-color: #333;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -32,6 +34,9 @@ body {
     /* TODO: Add display: flex to make this a flex container */
     /* TODO: Add gap property (try 2rem) for spacing between links */
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .nav-links a {
@@ -44,6 +49,8 @@ body {
 
 .nav-links a:hover {
     /* TODO: Add background-color for hover state */
+    background-color: rgb(0, 0, 0);
+    transition: 700ms;
 }
 
 /* ===========================================
@@ -58,6 +65,10 @@ body {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .hero-content h1 {
@@ -83,4 +94,6 @@ body {
 
 .cta-button:hover {
     /* TODO: Add background-color for hover state (try #ff5252) */
+    background-color: #c76363;
+    transition: 700ms;
 }
